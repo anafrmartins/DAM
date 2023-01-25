@@ -1,0 +1,51 @@
+name: sharing_codelab
+description: Photos Library API Codelab
+version: 1.0.0
+
+environment:
+  sdk: ">=2.17.0-0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:    
+  cached_network_image: ^3.0.0
+  cupertino_icons: ^1.0.3
+  flutter_svg: ^1.0.1
+  fluttertoast: ^8.0.7
+  google_sign_in: ^5.0.5
+  http: ^0.13.3
+  image_picker: ^0.8.2
+  json_annotation: ^4.0.1
+  path: ^1.8.0
+  scoped_model: ^2.0.0-0
+  collection: ^1.15.0
+  change_app_package_name: ^1.1.0
+  photo_view:
+  google_nav_bar:
+  firebase_core:
+  firebase_auth:  
+  cloud_firestore:
+  font_awesome_flutter:
+  provider:  
+  gallery_saver: 
+  flutter_cache_manager:
+  permission_handler: 
+  path_provider:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.0.4
+  json_serializable: ^6.1.4
+  flutter_lints: ^2.0.1
+
+dependency_overrides:
+  platform: ^3.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/ic_fieldTrippa.svg
+    - assets/lockup_photos_horizontal.svg
+    - assets/
